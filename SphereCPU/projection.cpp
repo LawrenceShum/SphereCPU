@@ -71,19 +71,17 @@ void SphereSolver::projection(int a)
 	//使用PCG解决projection
 	else if (a == 1)
 	{
-	
+		
 	}
 	//使用GS解决projection
 	else if (a == 2)
 	{
-
-
+		
 	}
 	//使用jacob解决projection
 	else if (a == 3)
 	{
-
-
+		
 	}
 	else
 		cout << "Something goes wrong in the projection step" << endl;
