@@ -77,10 +77,12 @@ void SphereSolver::projection(int a)
 	else if (a == 2)
 	{
 
+
 	}
 	//使用jacob解决projection
 	else if (a == 3)
 	{
+
 
 	}
 	else
