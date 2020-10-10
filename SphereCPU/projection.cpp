@@ -71,13 +71,7 @@ void SphereSolver::projection(int a)
 	//使用PCG解决projection
 	else if (a == 1)
 	{
-		int a = 0;
-		
-
-
-
-
-
+	
 	}
 	//使用GS解决projection
 	else if (a == 2)
