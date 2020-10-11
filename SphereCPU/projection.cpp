@@ -1,35 +1,53 @@
 #include "SphereSolver.h"
 #include "TotalInclude.h"
-
-//#include <Eigen/Core>
-//#include <Eigen/Dense>
+#include <Eigen/Core>
+#include <Eigen/Dense>
 #include <cmath>
-//#include <Eigen/IterativeLinearSolvers>
-//#include <unsupported/Eigen/IterativeSolvers>
+#include <Eigen/IterativeLinearSolvers>
+#include <unsupported/Eigen/IterativeSolvers>
 //#include <unsupported/Eigen/FFT>
-
 # include "mkl_service.h"
 /* Include Poisson Library header files */
 # include "mkl_poisson.h"
 # include "mkl_dfti.h"
 
 using namespace std;
+using namespace Eigen;
 
 void SphereSolver::projection(int a)
 {
+	//首先不考虑极点处的projection
+	int nonPolarGrid = n_phi*(n_theta - 1);
+	//left hand side 的矩阵A
+	Matrix2d A;
+	//right hand side 的速度散度向量
+	Vector2d d;
+	//left hand side 的压力向量
+	Vector2d p;
+
+	//构建A矩阵
+	for (int j = 0; j < n_theta - 1; j++)
+	{
+		for (int i = 0; i < n_phi; i++)
+		{
+
+		}
+	}
+
+	//gradP储存压力P的梯度
+	float invRadius = 1.0 / radius;
+	float invDensity = 1.0 / density;
+	float* gradP = new float[n_phi*(n_theta + 1)];
+	float scale = dt * invRadius * invDensity;
+
 	//使用MKL计算projection
 	if (!a)
 	{
 		//u为phi方向，v为theta方向
 		float* u = vel_phi_this;
 		float* v = vel_theta_this;
-
 		//MKLj解泊松方程
 		MKLSpherical();
-
-		float invRadius = 1.0 / radius;
-		float invDensity = 1.0 / density;
-
 		//更新phi方向的速度
 		for (int y = 1; y < n_theta - 1; y++)
 		{
@@ -68,16 +86,19 @@ void SphereSolver::projection(int a)
 		//解决极点处的projection
 		solvePolarProjection();
 	}
+
 	//使用PCG解决projection
 	else if (a == 1)
 	{
 		
 	}
+
 	//使用GS解决projection
 	else if (a == 2)
 	{
 		
 	}
+
 	//使用jacob解决projection
 	else if (a == 3)
 	{
@@ -361,4 +382,11 @@ end:
 	//printf("press any key to continue...");
 	//getchar();
 }
+
+//计算projection中的矩阵A
+void SphereSolver::computeA()
+{
+	
+}
+
 

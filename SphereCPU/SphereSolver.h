@@ -18,6 +18,7 @@ private:
 	void projection(int);
 	void MKLSpherical();
 	void solvePolarProjection();
+	void computeA();
 	//deffusion
 	void diffusion();
 
