@@ -4,10 +4,10 @@
 using namespace std;
 using namespace Eigen;
 
-LinearSolver::LinearSolver(int row, int column)
-	:row(row),column(column)
+LinearSolver::LinearSolver(int size, int iteration)
+	:size(size), iteration(iteration)
 {
-
+	initialize_A();
 }
 
 LinearSolver::~LinearSolver()
@@ -15,7 +15,26 @@ LinearSolver::~LinearSolver()
 
 }
 
-void LinearSolver::fillA(double*)
+//获得A矩阵
+void LinearSolver::set_value_A(int row, int col, double value)
 {
-	
+	A(row, col) = value;
+}
+
+//初始化A矩阵，初始为零矩阵
+void LinearSolver::initialize_A()
+{
+	A = Eigen::MatrixXd::Zero(size,size);
+}
+
+//获得A矩阵
+Eigen::MatrixXd LinearSolver::get_matrix_A()
+{
+	return A;
+}
+
+//获得b向量
+Eigen::VectorXd LinearSolver::get_vector_b()
+{
+	return b;
 }

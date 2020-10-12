@@ -6,14 +6,16 @@
 class LinearSolver
 {
 private:
-	//行
-	int row;
-	//列
-	int column;
+	//尺寸
+	int size;
 	//矩阵A，Ax=b
 	Eigen::MatrixXd	A;
 	//向量b
 	Eigen::VectorXd b;
+	//向量x
+	Eigen::VectorXd x;
+	//初始化A矩阵
+	void initialize_A();
 
 	//PCG解法
 	void PCG();
@@ -21,8 +23,9 @@ private:
 	void GS();
 	//jakobi解法
 	void Jakobi();
-	//将数据放入A矩阵中
-	void fillA(double*);
+
+	//迭代次数
+	int iteration;
 
 public:
 	LinearSolver(int,int);
@@ -31,6 +34,8 @@ public:
 	Eigen::MatrixXd get_matrix_A();
 	//获取向量b
 	Eigen::VectorXd get_vector_b();
+	//设定A矩阵内成员的值
+	void set_value_A(int,int,double);
 
 	~LinearSolver();
 };

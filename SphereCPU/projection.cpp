@@ -1,5 +1,6 @@
 #include "SphereSolver.h"
 #include "TotalInclude.h"
+#include "LinearSolver.h"
 #include <Eigen/Core>
 #include <Eigen/Dense>
 #include <cmath>
@@ -16,21 +17,53 @@ using namespace Eigen;
 
 void SphereSolver::projection(int a)
 {
-	//首先不考虑极点处的projection
-	int nonPolarGrid = n_phi*(n_theta - 1);
-	//left hand side 的矩阵A
-	Matrix2d A;
-	//right hand side 的速度散度向量
-	Vector2d d;
-	//left hand side 的压力向量
-	Vector2d p;
+	int iteration = 20;
+
+	//做projection的时候，极点被考虑成为一个点而不是之前的展开
+	int size = n_phi*(n_theta - 1) + 2;
+
+	//构建一个线性求解器
+	LinearSolver linear(size, iteration);
 
 	//构建A矩阵
-	for (int j = 0; j < n_theta - 1; j++)
+	//??problem??
+	//还差两个方程式，北极和南极的projection
+	//trick1:极点处的压力为极点周围压力的平均值
+	//trick2:
+	for (int row = 0; row < n_phi*(n_theta - 1) + 2; row++)
 	{
-		for (int i = 0; i < n_phi; i++)
+		for (int j = 0; j < n_theta - 1; j++)
 		{
-
+			for (int i = 0; i < n_phi; i++)
+			{
+				//判断上下脚标
+				int left, right, up, down;
+				if (i == 0)
+				{
+					left = n_phi - 2;
+					right = 2;
+				}
+				else if (i == 1)
+				{
+					left = n_phi - 1;
+					right = 3;
+				}
+				else if (i == n_phi - 2)
+				{
+					left = n_phi - 4;
+					right = 0;
+				}
+				else if (i == n_phi - 1)
+				{
+					left = n_phi - 3;
+					right = 1;
+				}
+				else 
+				{
+					left = i - 2;
+					right = i + 2;
+				}
+			}
 		}
 	}
 
