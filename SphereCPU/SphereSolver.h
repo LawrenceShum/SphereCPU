@@ -89,4 +89,5 @@ public:
 	float Lerp(float, float, float);
 
 	friend class Sphere;
+	friend class LinearSolver;
 };

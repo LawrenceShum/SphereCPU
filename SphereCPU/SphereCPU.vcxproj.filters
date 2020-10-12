@@ -45,6 +45,9 @@
     <ClCompile Include="diffusion.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="LinearSolver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SphereSolver.h">
@@ -60,6 +63,9 @@
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="TotalInclude.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearSolver.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>

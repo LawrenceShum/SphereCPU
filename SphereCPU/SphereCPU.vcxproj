@@ -129,6 +129,7 @@
     <ClCompile Include="CubicSolver.cpp" />
     <ClCompile Include="diffusion.cpp" />
     <ClCompile Include="geometric.cpp" />
+    <ClCompile Include="LinearSolver.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="projection.cpp" />
     <ClCompile Include="SpectualFilter.cpp" />
@@ -138,6 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CubicSolver.h" />
+    <ClInclude Include="LinearSolver.h" />
     <ClInclude Include="Sphere.h" />
     <ClInclude Include="SphereQuantity.h" />
     <ClInclude Include="SphereSolver.h" />
