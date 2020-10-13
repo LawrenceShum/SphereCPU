@@ -94,7 +94,7 @@ void SphereSolver::polarAdvection()
 	//根据极点的边界条件，两个方向的速度是共轭的，因此计算phi方向的速度
 	for (int x = 0; x < n_phi; x++)
 	{
-		int conjugate = (x + static_cast<int>(n_phi / 2)) % n_phi;
+		int conjugate = (x + static_cast<int>(n_phi / 4)) % n_phi;
 		vel_phi_next[x] = vel_theta_next[conjugate];
 	}
 
@@ -126,7 +126,7 @@ void SphereSolver::polarAdvection()
 	//根据共轭关系计算phi方向上的速度
 	for (int x = 0; x < n_phi; x++)
 	{
-		int conjugate = (x + static_cast<int>(n_phi / 2)) % n_phi;
+		int conjugate = (x + static_cast<int>(n_phi / 4)) % n_phi;
 		vel_phi_next[x + n_phi*n_theta] = -vel_theta_next[conjugate + n_phi*n_theta];
 	}
 }

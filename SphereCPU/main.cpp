@@ -6,8 +6,10 @@ using namespace std;
 
 int main()
 {
-	int n_theta = 5;
-	int n_phi = 10;
+	//n_phi建议是4的倍数
+	//n_theta必须是n_phi的1/2
+	int n_theta = 6;
+	int n_phi = 12;
 	float dt = 0.01;
 	float DT = 0.05;
 	float radius = 10;

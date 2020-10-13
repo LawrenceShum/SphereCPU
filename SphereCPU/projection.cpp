@@ -17,6 +17,9 @@ using namespace Eigen;
 
 void SphereSolver::projection(int a)
 {
+	float invRadius = 1.0 / radius;
+	float invDensity = 1.0 / density;
+
 	int iteration = 20;
 
 	//做projection的时候，极点被考虑成为一个点而不是之前的展开
@@ -26,50 +29,108 @@ void SphereSolver::projection(int a)
 	LinearSolver linear(size, iteration);
 
 	//构建A矩阵
+	//北极、南极两点的P放在矩阵A中每一行的最后两个
 	//??problem??
 	//还差两个方程式，北极和南极的projection
 	//trick1:极点处的压力为极点周围压力的平均值
-	//trick2:
+	//trick2:直接计算
 	for (int row = 0; row < n_phi*(n_theta - 1) + 2; row++)
 	{
-		for (int j = 0; j < n_theta - 1; j++)
+		//先考虑非极点情况
+		for (int j = 1; j < n_theta; j++)
 		{
+			double scale1 = 0.5*dt*invDensity*invRadius*invGridLen*invGridLen;
 			for (int i = 0; i < n_phi; i++)
 			{
-				//判断上下脚标
-				int left, right, up, down;
+				int left_i, left_j,
+					right_i, right_j,
+					up_i, up_j,
+					down_i, down_j;
+				//判断左右脚标
 				if (i == 0)
 				{
-					left = n_phi - 2;
-					right = 2;
+					left_i = n_phi - 2;
+					right_i = 2;
+					left_j = j;
+					right_j = j;
 				}
 				else if (i == 1)
 				{
-					left = n_phi - 1;
-					right = 3;
+					left_i = n_phi - 1;
+					right_i = 3;
+					left_j = j;
+					right_j = j;
 				}
 				else if (i == n_phi - 2)
 				{
-					left = n_phi - 4;
-					right = 0;
+					left_i = n_phi - 4;
+					right_i = 0;
+					left_j = j;
+					right_j = j;
 				}
 				else if (i == n_phi - 1)
 				{
-					left = n_phi - 3;
-					right = 1;
+					left_i = n_phi - 3;
+					right_i = 1;
+					left_j = j;
+					right_j = j;
 				}
 				else 
 				{
-					left = i - 2;
-					right = i + 2;
+					left_i = i - 2;
+					right_i = i + 2;
+					left_j = j;
+					right_j = j;
 				}
+
+				//判断上下脚标
+				if (j == 1)
+				{
+					up_i = (i + n_phi / 2) % n_phi;
+					down_i = i;
+					up_j = 1;
+					down_j = 3;
+				}
+				else if (j == 2)
+				{
+					up_i = 1;
+					down_i = i;
+					up_j = n_theta;
+					down_j = 4;
+				}
+				else if (j == n_theta - 1)
+				{
+					up_i = i;
+					down_i = (i + n_phi / 2) % n_phi;
+					up_j = j - 2;
+					down_j = n_theta - 1;
+				}
+				else if (j == n_theta - 2)
+				{
+					up_i = i;
+					down_i = 2;
+					up_j = j - 2;
+					down_j = n_theta;
+				}
+				else
+				{
+					up_i = i;
+					down_i = i;
+					up_j = j - 2;
+					down_j = j + 2;
+				}
+				//将自身系数设为4
+				linear.set_value_A(row, get_column_num(i, j, n_phi), 4);
+				//将临近上下左右系数设为-1
+				linear.set_value_A(row, get_column_num(left_i, left_j, n_phi), -1);
+				linear.set_value_A(row, get_column_num(right_i, right_j, n_phi), -1);
+				linear.set_value_A(row, get_column_num(up_i, up_j, n_phi), -1);
+				linear.set_value_A(row, get_column_num(down_i, down_j, n_phi), -1);
 			}
 		}
 	}
 
 	//gradP储存压力P的梯度
-	float invRadius = 1.0 / radius;
-	float invDensity = 1.0 / density;
 	float* gradP = new float[n_phi*(n_theta + 1)];
 	float scale = dt * invRadius * invDensity;
 
@@ -180,7 +241,7 @@ void SphereSolver::solvePolarProjection()
 	//共轭计算
 	for (int k = 0; k < n_phi; k++)
 	{
-		int num = (k + static_cast<int>(n_phi / 2)) % n_phi;
+		int num = (k + static_cast<int>(n_phi / 4)) % n_phi;
 		vel_phi_next[k] = vel_theta_next[num];
 		vel_phi_next[k + n_phi*n_theta] = vel_theta_next[num + n_phi*n_theta];
 	}
@@ -420,6 +481,11 @@ end:
 void SphereSolver::computeA()
 {
 	
+}
+
+int get_column_num(int i, int j, int pitch)
+{
+	return j*pitch + i;
 }
 
 
