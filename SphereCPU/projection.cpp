@@ -26,6 +26,7 @@ void SphereSolver::projection(int a)
 	int size = n_phi*(n_theta - 1) + 2;
 
 	//构建一个线性求解器
+	//线性系统为Ax = b
 	LinearSolver linear(size, iteration);
 
 	//构建A矩阵
@@ -33,11 +34,9 @@ void SphereSolver::projection(int a)
 	//??problem??
 	//还差两个方程式，北极和南极的projection
 	//trick1:极点处的压力为极点周围压力的平均值
-	//trick2:直接计算
-	for (int row = 0; row < n_phi*(n_theta - 1) + 2; row++)
-	{
+	int row = 0;
 		//先考虑非极点情况
-		for (int j = 1; j < n_theta; j++)
+	for (int j = 1; j < n_theta; j++)
 		{
 			double scale1 = 0.5*dt*invDensity*invRadius*invGridLen*invGridLen;
 			for (int i = 0; i < n_phi; i++)
@@ -93,7 +92,7 @@ void SphereSolver::projection(int a)
 				}
 				else if (j == 2)
 				{
-					up_i = 1;
+					up_i = 0;
 					down_i = i;
 					up_j = n_theta;
 					down_j = 4;
@@ -108,7 +107,7 @@ void SphereSolver::projection(int a)
 				else if (j == n_theta - 2)
 				{
 					up_i = i;
-					down_i = 2;
+					down_i = 1;
 					up_j = j - 2;
 					down_j = n_theta;
 				}
@@ -126,9 +125,26 @@ void SphereSolver::projection(int a)
 				linear.set_value_A(row, get_column_num(right_i, right_j, n_phi), -1);
 				linear.set_value_A(row, get_column_num(up_i, up_j, n_phi), -1);
 				linear.set_value_A(row, get_column_num(down_i, down_j, n_phi), -1);
+
+				row++;
 			}
 		}
+	//考虑北极南极点的情况
+	//北极点
+	for (int i = 0; i < n_phi; i++)
+	{
+		linear.set_value_A(row, get_column_num(i, 1, n_phi), 1);
+		linear.set_value_A(row, get_column_num(0, n_theta, n_phi), -1);
 	}
+	//南极点
+	row++;
+	for (int i = 0; i < n_phi; i++)
+	{
+		linear.set_value_A(row, get_column_num(i, n_theta-1, n_phi), 1);
+		linear.set_value_A(row, get_column_num(1, n_theta, n_phi), -1);
+	}
+	//构建rhs，b
+
 
 	//gradP储存压力P的梯度
 	float* gradP = new float[n_phi*(n_theta + 1)];
@@ -485,7 +501,7 @@ void SphereSolver::computeA()
 
 int get_column_num(int i, int j, int pitch)
 {
-	return j*pitch + i;
+	return (j-1)*pitch + i;
 }
 
 

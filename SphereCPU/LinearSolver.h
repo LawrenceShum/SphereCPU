@@ -16,6 +16,10 @@ private:
 	Eigen::VectorXd x;
 	//初始化A矩阵
 	void initialize_A();
+	//初始化向量b
+	void initialize_b();
+	//初始化向量x
+	void initialize_x();
 
 	//PCG解法
 	void PCG();

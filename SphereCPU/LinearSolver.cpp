@@ -8,6 +8,8 @@ LinearSolver::LinearSolver(int size, int iteration)
 	:size(size), iteration(iteration)
 {
 	initialize_A();
+	initialize_b();
+	initialize_x();
 }
 
 LinearSolver::~LinearSolver()
@@ -25,6 +27,16 @@ void LinearSolver::set_value_A(int row, int col, double value)
 void LinearSolver::initialize_A()
 {
 	A = Eigen::MatrixXd::Zero(size,size);
+}
+
+void LinearSolver::initialize_b()
+{
+	b = Eigen::VectorXd::Zero(size);
+}
+
+void LinearSolver::initialize_x()
+{
+	x = Eigen::VectorXd::Zero(size);
 }
 
 //ªÒµ√Aæÿ’Û
