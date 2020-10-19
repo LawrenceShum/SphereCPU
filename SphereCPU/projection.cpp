@@ -114,12 +114,12 @@ void SphereSolver::projection(int a)
 					down_j = j + 2;
 				}
 				//将自身系数设为4
-				linear.set_value_A(row, get_column_num(i, j, n_phi), 4*co);
+				linear.set_value_A(row, get_column_num(i, j, n_phi), 4);
 				//将临近上下左右系数设为-1
-				linear.set_value_A(row, get_column_num(left_i, left_j, n_phi), -1*co);
-				linear.set_value_A(row, get_column_num(right_i, right_j, n_phi), -1*co);
-				linear.set_value_A(row, get_column_num(up_i, up_j, n_phi), -1*co);
-				linear.set_value_A(row, get_column_num(down_i, down_j, n_phi), -1*co);
+				linear.set_value_A(row, get_column_num(left_i, left_j, n_phi), -1);
+				linear.set_value_A(row, get_column_num(right_i, right_j, n_phi), -1);
+				linear.set_value_A(row, get_column_num(up_i, up_j, n_phi), -1);
+				linear.set_value_A(row, get_column_num(down_i, down_j, n_phi), -1);
 
 				row++;
 			}
@@ -130,9 +130,9 @@ void SphereSolver::projection(int a)
 	for (int i = 0; i < n_phi; i++)
 	{
 		double co = dt / (2 * density * gridLen);
-		linear.set_value_A(row, get_column_num(i, 0, n_phi), 2*co);
-		linear.set_value_A(row, get_column_num(i, 2, n_phi), -1*co);
-		linear.set_value_A(row, get_column_num(i+static_cast<int>(n_phi/2), 2, n_phi), -1*co);
+		linear.set_value_A(row, get_column_num(i, 0, n_phi), 2);
+		linear.set_value_A(row, get_column_num(i, 2, n_phi), -1);
+		linear.set_value_A(row, get_column_num(i+static_cast<int>(n_phi/2), 2, n_phi), -1);
 	}
 
 	//南极点
@@ -140,9 +140,9 @@ void SphereSolver::projection(int a)
 	for (int i = 0; i < n_phi; i++)
 	{
 		double co = dt / (2 * density * gridLen);
-		linear.set_value_A(row, get_column_num(i, n_theta, n_phi), 2*co);
-		linear.set_value_A(row, get_column_num(i, n_theta-1, n_phi), -1*co);
-		linear.set_value_A(row, get_column_num(i + static_cast<int>(n_phi / 2), n_theta-1, n_phi), -1*co);
+		linear.set_value_A(row, get_column_num(i, n_theta, n_phi), 2);
+		linear.set_value_A(row, get_column_num(i, n_theta-1, n_phi), -1);
+		linear.set_value_A(row, get_column_num(i + static_cast<int>(n_phi / 2), n_theta-1, n_phi), -1);
 	}
 
 	//输出看一下A矩阵是什么样子的

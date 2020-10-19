@@ -50,7 +50,7 @@ void SphereSolver::step(float dt)
 	//1使用PCG
 	//2使用GS
 	//3使用Jacob
-	//projection(0);
+	projection(0);
 }
 
 void SphereSolver::initialize_velocity()
