@@ -1,5 +1,6 @@
 #include "LinearSolver.h"
 #include "TotalInclude.h"
+#include <iostream>
 
 using namespace std;
 using namespace Eigen;
@@ -49,4 +50,18 @@ Eigen::MatrixXd LinearSolver::get_matrix_A()
 Eigen::VectorXd LinearSolver::get_vector_b()
 {
 	return b;
+}
+
+void LinearSolver::output_A()
+{
+	cout << A << endl;
+}
+
+void LinearSolver::Jakobi()
+{
+
+}
+
+void LinearSolver::PCG()
+{
 }

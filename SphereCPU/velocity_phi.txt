@@ -1,800 +1,585 @@
 Frame 1
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 2
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 3
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 4
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 5
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 6
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 7
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 8
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 9
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 10
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 11
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 12
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 13
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 14
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 15
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 16
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 17
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 18
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 19
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 20
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 21
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 22
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 23
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 24
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 25
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 26
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 27
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 28
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 29
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 30
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 31
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 32
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 33
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 34
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 35
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 36
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 37
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 38
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 39
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 40
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 41
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 42
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 43
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 44
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 45
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 46
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 47
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 48
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 49
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 50
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 51
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 52
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 53
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 54
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 55
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 56
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 57
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 58
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 59
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 60
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 61
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 62
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 63
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 64
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 
 Frame 65
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 66
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 67
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 68
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 69
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 70
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 71
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 72
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 73
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 74
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 75
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 76
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 77
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 78
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 79
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 80
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 81
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 82
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 83
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 84
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 85
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 86
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 87
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 88
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 89
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 90
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 91
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 92
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 93
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 94
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 95
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 96
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 97
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 98
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 99
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 100
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    0    -nan(ind)    
-0    0    0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    0    0    0    0    -nan    
+0    0    0    0    0    0    0    0    0    0    0    0    
+-nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    -nan    
 

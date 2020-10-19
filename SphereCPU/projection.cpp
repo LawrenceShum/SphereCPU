@@ -15,6 +15,11 @@
 using namespace std;
 using namespace Eigen;
 
+int get_column_num(int i, int j, int pitch)
+{
+	return (j - 1)*pitch + i;
+}
+
 void SphereSolver::projection(int a)
 {
 	float invRadius = 1.0 / radius;
@@ -35,7 +40,7 @@ void SphereSolver::projection(int a)
 	//还差两个方程式，北极和南极的projection
 	//trick1:极点处的压力为极点周围压力的平均值
 	int row = 0;
-		//先考虑非极点情况
+	//先考虑非极点情况
 	for (int j = 1; j < n_theta; j++)
 		{
 			double scale1 = 0.5*dt*invDensity*invRadius*invGridLen*invGridLen;
@@ -143,6 +148,7 @@ void SphereSolver::projection(int a)
 		linear.set_value_A(row, get_column_num(i, n_theta-1, n_phi), 1);
 		linear.set_value_A(row, get_column_num(1, n_theta, n_phi), -1);
 	}
+	linear.output_A();
 	//构建rhs，b
 
 
@@ -497,11 +503,6 @@ end:
 void SphereSolver::computeA()
 {
 	
-}
-
-int get_column_num(int i, int j, int pitch)
-{
-	return (j-1)*pitch + i;
 }
 
 

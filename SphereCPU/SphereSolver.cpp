@@ -38,7 +38,7 @@ void SphereSolver::step(float dt)
 	//step 1
 	advection();
 
-	cout << "hello" << endl;
+	//cout << "hello" << endl;
 	//steo 2
 	geometric();
 
@@ -55,24 +55,24 @@ void SphereSolver::step(float dt)
 
 void SphereSolver::initialize_velocity()
 {
-	for (int i = 0; i < n_theta+1; i++)
+	for (int j = 0; j < n_theta + 1; j++)
 	{
-		for (int j = 0; j < n_phi; j++)
+		for (int i = 0; i < n_phi; i++)
 		{
-			this->set_vel_phi(i, j, j);
-			this->set_vel_theta(i, j, 0);
+			this->set_presure(j, i, 0.0);
+			this->set_presure(j, i, 0.0);
 		}
 	}
 }
 
 void SphereSolver::initialize_presure()
 {
-	for (int i = 0; i < n_theta+1; i++)
+	for (int j = 0; j < n_theta+1; j++)
 	{
-		for (int j = 0; j < n_phi; j++)
+		for (int i = 0; i < n_phi; i++)
 		{
-			this->set_presure(i, j, 0.0);
-			this->set_presure(i, j, 0.0);
+			this->set_presure(j, i, 0.0);
+			this->set_presure(j, i, 0.0);
 		}
 	}
 }

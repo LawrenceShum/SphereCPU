@@ -64,7 +64,7 @@ void SphereSolver::velocity_advection(int x, int y)
 	this->vel_theta_next[num] = advectedVel_theta;
 }
 
-void SphereSolver::polarAdvection()
+/*void SphereSolver::polarAdvection()
 {
 	//在北极，即theta = 0
 	for (int x = 0; x < n_phi; x++)
@@ -128,5 +128,49 @@ void SphereSolver::polarAdvection()
 	{
 		int conjugate = (x + static_cast<int>(n_phi / 4)) % n_phi;
 		vel_phi_next[x + n_phi*n_theta] = -vel_theta_next[conjugate + n_phi*n_theta];
+	}
+}*/
+
+//version 2 极点处对流
+void SphereSolver::polarAdvection()
+{
+	//在北极点处
+	for (int x = 0; x < n_phi; x++)
+	{
+		float coTheta = 0.0;
+		float coPhi = x*gridLen;
+
+		float uTheta = vel_theta_this[x];
+
+		float pTheta = coTheta - dt*uTheta;
+		float pPhi = coPhi;
+
+		vel_theta_next[x] = sampleAt(pPhi, pTheta, vel_theta_this);
+	}
+	//根据共轭关系处理phi方向的速度
+	for (int x = 0; x < n_phi; x++)
+	{
+		int conjugate = (x + static_cast<int>(n_phi / 4)) % n_phi;
+		vel_phi_next[x] = vel_theta_next[conjugate];
+	}
+
+	//在南极点处
+	for (int x = 0; x < n_phi; x++)
+	{
+		float coTheta = 180.0;
+		float coPhi = x*gridLen;
+
+		float uTheta = vel_theta_this[x + n_theta*n_phi];
+
+		float pTheta = coTheta - dt*uTheta;
+		float pPhi = coPhi;
+
+		vel_theta_next[x + n_theta*n_phi] = sampleAt(pPhi, pTheta, vel_theta_this);
+	}
+	//根据共轭关系处理phi方向的速度
+	for (int x = 0; x < n_phi; x++)
+	{
+		int conjugate = (x + static_cast<int>(n_phi / 4)) % n_phi;
+		vel_phi_next[x + n_theta*n_phi] = vel_theta_next[conjugate + n_theta*n_phi];
 	}
 }
