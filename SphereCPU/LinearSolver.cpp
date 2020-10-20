@@ -1,6 +1,7 @@
 #include "LinearSolver.h"
 #include "TotalInclude.h"
 #include <iostream>
+#include <ctime>
 
 using namespace std;
 using namespace Eigen;
@@ -22,6 +23,12 @@ LinearSolver::~LinearSolver()
 void LinearSolver::set_value_A(int row, int col, double value)
 {
 	A(row, col) = value;
+}
+
+//设置b向量
+void LinearSolver::set_value_b(int row, double value)
+{
+	b(row) = value;
 }
 
 //初始化A矩阵，初始为零矩阵
@@ -54,13 +61,20 @@ Eigen::VectorXd LinearSolver::get_vector_b()
 
 void LinearSolver::output_A()
 {
+	cout << "矩阵A为：" << endl;
 	cout << A << endl;
+}
+
+void LinearSolver::output_b()
+{
+	cout << "向量b为：" << endl;
+	cout << b << endl;
 }
 
 void LinearSolver::output_eigenvalue()
 {
 	EigenSolver<MatrixXd> es(A);
-	cout << "矩阵A的特征值为" << es.eigenvalues() << endl;
+	cout << "矩阵A的特征值为" << endl << es.eigenvalues() << endl;
 }
 
 void LinearSolver::Jakobi()

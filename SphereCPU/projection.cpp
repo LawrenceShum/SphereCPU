@@ -152,11 +152,45 @@ void SphereSolver::projection(int a)
 	//输出A矩阵的特征值
 	linear.output_eigenvalue();
 
+	row = 0;
 	//构建rhs，b
-	for (int i = 0; i < size; i++)
+	//首先是北极点
+	for (int i = 0; i < n_phi; i++)
 	{
-
+		int d = (static_cast<int>(n_phi / 2) + i) % n_phi;
+		double value = vel_theta_this[i + n_phi] - vel_theta_this[d + n_phi];
+		linear.set_value_b(row, -value);
+		row++;
 	}
+	//然后是除极点外的值
+	for (int j = 1; j < n_theta; j++)
+	{
+		for (int i = 0; i < n_phi; i++)
+		{
+			double co = -1.0 / gridLen;
+			int left = (i - 1 < 0 ? n_phi - 1 : i - 1);
+			int right = (i + 1 >= n_phi ? 1 : i + 1);
+
+			float u_theta_up = this->get_vel_theta(j-1,i);
+			float u_theta_down = this->get_vel_theta(j + 1, i);
+			float u_phi_left = this->get_vel_phi(j, left);
+			float u_phi_right = this->get_vel_phi(j, right);
+
+			double rhs = co*(u_phi_right - u_phi_left + sin((j + 1)*gridLen)*u_theta_down - sin((j - 1)*gridLen)*u_theta_up);
+			linear.set_value_b(row, rhs);
+			row++;
+		}
+	}
+	//最后是南极
+	for (int i = 0; i < n_phi; i++)
+	{
+		int d = (static_cast<int>(n_phi / 2) + i) % n_phi;
+		double value = vel_theta_this[i + n_phi*(n_theta-1)] - vel_theta_this[d + n_phi*(n_theta-1)];
+		linear.set_value_b(row, -value);
+		row++;
+	}
+
+	linear.output_b();
 
 	//gradP储存压力P的梯度
 	float* gradP = new float[n_phi*(n_theta + 1)];

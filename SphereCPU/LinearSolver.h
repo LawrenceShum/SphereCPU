@@ -40,8 +40,12 @@ public:
 	Eigen::VectorXd get_vector_b();
 	//设定A矩阵内成员的值
 	void set_value_A(int,int,double);
+	//设定b向量的值
+	void set_value_b(int, double);
 	//输出A矩阵
 	void output_A();
+	//输出b向量
+	void output_b();
 	//输出A矩阵特征值
 	void output_eigenvalue();
 
