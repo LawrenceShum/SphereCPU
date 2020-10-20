@@ -42,6 +42,8 @@ public:
 	void set_value_A(int,int,double);
 	//输出A矩阵
 	void output_A();
+	//输出A矩阵特征值
+	void output_eigenvalue();
 
 	~LinearSolver();
 };

@@ -57,6 +57,12 @@ void LinearSolver::output_A()
 	cout << A << endl;
 }
 
+void LinearSolver::output_eigenvalue()
+{
+	EigenSolver<MatrixXd> es(A);
+	cout << "矩阵A的特征值为" << es.eigenvalues() << endl;
+}
+
 void LinearSolver::Jakobi()
 {
 

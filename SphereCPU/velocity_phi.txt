@@ -1,14 +1,7 @@
 Frame 1
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    -nan(ind)    
 0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
-
-Frame 2
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    -nan(ind)    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    0    0    -nan(ind)    
 0    0    0    0    0    0    0    0    
--nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    -nan(ind)    
+0    0    0    0    0    0    0    0    
+0    0    0    0    0    0    0    0    
+0    0    -0    -0    -0    -0    -0    -0    
 

@@ -133,20 +133,24 @@ void SphereSolver::projection(int a)
 		linear.set_value_A(row, get_column_num(i, 0, n_phi), 2);
 		linear.set_value_A(row, get_column_num(i, 2, n_phi), -1);
 		linear.set_value_A(row, get_column_num(i+static_cast<int>(n_phi/2), 2, n_phi), -1);
+		row++;
 	}
 
 	//南极点
-	row = n_phi*(n_theta + 1) - 1;
+	row = n_phi*n_theta;
 	for (int i = 0; i < n_phi; i++)
 	{
 		double co = dt / (2 * density * gridLen);
 		linear.set_value_A(row, get_column_num(i, n_theta, n_phi), 2);
 		linear.set_value_A(row, get_column_num(i, n_theta-1, n_phi), -1);
 		linear.set_value_A(row, get_column_num(i + static_cast<int>(n_phi / 2), n_theta-1, n_phi), -1);
+		row++;
 	}
 
 	//输出看一下A矩阵是什么样子的
 	linear.output_A();
+	//输出A矩阵的特征值
+	linear.output_eigenvalue();
 
 	//构建rhs，b
 	for (int i = 0; i < size; i++)
@@ -181,7 +185,7 @@ void SphereSolver::projection(int a)
 
 				float pressureGrad = presure_this[gridRightX + y*n_phi] - presure_this[gridLeftX + y*n_phi];
 				float deltauPhi = factorPhi * pressureGrad;
-				vel_phi_next[x + y*n_phi] = u[x + y*n_phi] + deltauPhi;
+				//vel_phi_next[x + y*n_phi] = u[x + y*n_phi] + deltauPhi;
 			}
 		}
 		//更新theta方向的速度
@@ -198,11 +202,11 @@ void SphereSolver::projection(int a)
 
 				float pressureGrad = presure_this[gridRightX + y*n_phi] - presure_this[gridLeftX + y*n_phi];
 				float deltauTheta = factorTheta * pressureGrad;
-				vel_theta_next[x + y*n_phi] = v[x + y*n_phi] + deltauTheta;
+				//vel_theta_next[x + y*n_phi] = v[x + y*n_phi] + deltauTheta;
 			}
 		}
 		//解决极点处的projection
-		solvePolarProjection();
+		//solvePolarProjection();
 	}
 
 	//使用PCG解决projection
