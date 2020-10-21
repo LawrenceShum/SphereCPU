@@ -192,12 +192,19 @@ void SphereSolver::projection(int a)
 
 	linear.output_b();
 
+	//开始解线性方程组
+	//0为householderQR
+	//1为colPivHouseholderQR
+	//2为fullPivHouseholderQR
+	linear.solveLinear(1);
+	
+
 	//gradP储存压力P的梯度
 	float* gradP = new float[n_phi*(n_theta + 1)];
 	float scale = dt * invRadius * invDensity;
 
 	//使用MKL计算projection
-	if (!a)
+	/*if (!a)
 	{
 		//u为phi方向，v为theta方向
 		float* u = vel_phi_this;
@@ -242,29 +249,11 @@ void SphereSolver::projection(int a)
 		//解决极点处的projection
 		//solvePolarProjection();
 	}
+	*/
+	//cout << "Something goes wrong in the projection step" << endl;
 
-	//使用PCG解决projection
-	else if (a == 1)
-	{
-		
-	}
-
-	//使用GS解决projection
-	else if (a == 2)
-	{
-		
-	}
-
-	//使用jacob解决projection
-	else if (a == 3)
-	{
-	
-	}
-	else
-		cout << "Something goes wrong in the projection step" << endl;
-
-	swap_vel_phi();
-	swap_vel_theta();
+	//swap_vel_phi();
+	//swap_vel_theta();
 }
 
 

@@ -84,4 +84,39 @@ void LinearSolver::Jakobi()
 
 void LinearSolver::PCG()
 {
+
+}
+
+void LinearSolver::householderQR()
+{
+	clock_t time = clock();
+	x = A.householderQr().solve(b);
+	cout << "househoulderQR方法使用时间为：" << 1000 * (clock() - time) / (double)CLOCKS_PER_SEC << "ms" << endl;
+	cout << x << endl;
+}
+
+void LinearSolver::colPivHouseholderQR()
+{
+	clock_t time = clock();
+	x = A.colPivHouseholderQr().solve(b);
+	cout << "colPivHousehoulderQR方法使用时间为：" << 1000 * (clock() - time) / (double)CLOCKS_PER_SEC << "ms" << endl;
+	cout << x << endl;
+}
+
+void LinearSolver::fullPivHouseholderQR()
+{
+	clock_t time = clock();
+	x = A.fullPivHouseholderQr().solve(b);
+	cout << "fullPivHousehoulderQR方法使用时间为：" << 1000 * (clock() - time) / (double)CLOCKS_PER_SEC << "ms" << endl;
+	cout << x << endl;
+}
+
+void LinearSolver::solveLinear(int c)
+{
+	if (!c)
+		householderQR();
+	else if (c == 1)
+		colPivHouseholderQR();
+	else if (c == 2)
+		fullPivHouseholderQR();
 }

@@ -27,6 +27,12 @@ private:
 	void GS();
 	//jakobi解法
 	void Jakobi();
+	//QR分解
+	void householderQR();
+	//colpivhouseholderQR
+	void colPivHouseholderQR();
+	//full piv householderQR
+	void fullPivHouseholderQR();
 
 	//迭代次数
 	int iteration;
@@ -48,6 +54,8 @@ public:
 	void output_b();
 	//输出A矩阵特征值
 	void output_eigenvalue();
+	//解线性方程组
+	void solveLinear(int);
 
 	~LinearSolver();
 };
