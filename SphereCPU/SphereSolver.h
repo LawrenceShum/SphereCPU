@@ -15,7 +15,7 @@ private:
 	//spectual filter
 	void spectual_filter();
 	//projection
-	void projection(int);
+	void projection();
 	void MKLSpherical();
 	void solvePolarProjection();
 	void computeA();

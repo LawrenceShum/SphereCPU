@@ -46,11 +46,7 @@ void SphereSolver::step(float dt)
 	spectual_filter();
 
 	//step 4
-	//0使用MKL
-	//1使用PCG
-	//2使用GS
-	//3使用Jacob
-	projection(0);
+	projection();
 }
 
 void SphereSolver::initialize_velocity()
@@ -59,7 +55,7 @@ void SphereSolver::initialize_velocity()
 	{
 		for (int i = 0; i < n_phi; i++)
 		{
-			this->set_vel_phi(j, i, 0.0);
+			this->set_vel_phi(j, i, 0.5);
 			this->set_vel_theta(j, i, 1.0);
 		}
 	}

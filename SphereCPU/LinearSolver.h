@@ -56,6 +56,10 @@ public:
 	void output_eigenvalue();
 	//解线性方程组
 	void solveLinear(int);
+	//得到b的值
+	double get_value_b(int);
 
 	~LinearSolver();
+
+	friend class SphereSolver;
 };

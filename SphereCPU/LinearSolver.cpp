@@ -77,6 +77,11 @@ void LinearSolver::output_eigenvalue()
 	cout << "矩阵A的特征值为" << endl << es.eigenvalues() << endl;
 }
 
+double LinearSolver::get_value_b(int n)
+{
+	return b(n);
+}
+
 void LinearSolver::Jakobi()
 {
 
