@@ -128,6 +128,7 @@
     <ClCompile Include="advection.cpp" />
     <ClCompile Include="CubicSolver.cpp" />
     <ClCompile Include="diffusion.cpp" />
+    <ClCompile Include="Drawer.cpp" />
     <ClCompile Include="geometric.cpp" />
     <ClCompile Include="LinearSolver.cpp" />
     <ClCompile Include="lodepng.cpp" />
@@ -140,6 +141,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CubicSolver.h" />
+    <ClInclude Include="Drawer.h" />
     <ClInclude Include="LinearSolver.h" />
     <ClInclude Include="lodepng.h" />
     <ClInclude Include="Sphere.h" />
