@@ -27,6 +27,15 @@ void Drawer::initial(vector<unsigned char>& image)
 	}
 }
 
+void Drawer::initial_particles()
+{
+	for (unsigned i = 0; i < num_particles; i++)
+	{
+		particles[i].x = 0 + i;
+		particles[i].y = 0 + i;
+	}
+}
+
 void Drawer::set_point(vector<unsigned char>& image, int x_i, int y_i, color color)
 {
 	int x = x_i;
@@ -35,4 +44,20 @@ void Drawer::set_point(vector<unsigned char>& image, int x_i, int y_i, color col
 	image[4 * width * y + 4 * x + 1] = color.G;
 	image[4 * width * y + 4 * x + 2] = color.B;
 	image[4 * width * y + 4 * x + 3] = color.A;
+}
+
+vector<unsigned char> Drawer::get_image() 
+{
+	return image;
+}
+
+
+//Êä³öpngÍ¼Æ¬
+void Drawer::output_png(const char* filename, std::vector<unsigned char>& image, unsigned width, unsigned height)
+{
+	//Encode the image
+	unsigned error = lodepng::encode(filename, image, width, height);
+
+	//if there's an error, display it
+	if (error) std::cout << "encoder error " << error << ": " << lodepng_error_text(error) << std::endl;
 }

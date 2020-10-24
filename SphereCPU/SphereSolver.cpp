@@ -47,6 +47,10 @@ void SphereSolver::step(float dt)
 
 	//step 4
 	projection();
+
+	//将模拟结果以图片的形式输出
+	//输出的图片格式为png
+
 }
 
 void SphereSolver::initialize_velocity()
