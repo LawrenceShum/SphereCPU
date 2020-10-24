@@ -7,6 +7,9 @@ Drawer::Drawer(unsigned width, unsigned height) :
 {
 	image.resize(width * height * 4);
 	particles.resize(num_particles);
+	color_old.resize(width*height);
+	color_new.resize(width*height);
+	initial_particles();
 	initial(image);
 }
 
@@ -21,30 +24,101 @@ void Drawer::initial(vector<unsigned char>& image)
 	{
 		for (int x = 0; x < width; x++)
 		{
-			//将画布变成黑色
-			image[4 * y*width + 4 * x + 3] = 255;
+			if (y < (height / 8))
+				color_old[y*width + x] = red;
+			//set_point(image, x, y, red);
+			else if (y < (height / 4))
+				color_old[y*width + x] = white;
+				//set_point(image, x, y, white);
+			else if (y < (height * 3 / 8))
+				color_old[y*width + x] = red;
+				//set_point(image, x, y, red);
+			else if (y < (height / 2))
+				color_old[y*width + x] = white;
+				//set_point(image, x, y, white);
+			else if (y < (height * 5 / 8))
+				color_old[y*width + x] = red;
+				//set_point(image, x, y, red);
+			else if (y < (height * 3 / 4))
+				color_old[y*width + x] = white;
+				//set_point(image, x, y, white);
+			else if (y < (height * 7 / 8))
+				color_old[y*width + x] = red;
+				//set_point(image, x, y, red);
+			else
+				color_old[y*width + x] = white;
+				//set_point(image, x, y, white);
+		}
+	}
+
+	for (int y = 0; y < height; y++)
+	{
+		for (int x = 0; x < width; x++)
+		{
+			set_point(image, x, y, color_old[y*width + x]);
+			/*
+			if (y < (height / 8))
+				set_point(image, x, y, red);
+			else if (y < (height / 4))
+				set_point(image, x, y, white);
+			else if (y < (height * 3 / 8))
+				set_point(image, x, y, red);
+			else if (y < (height / 2))
+				set_point(image, x, y, white);
+			else if (y < (height * 5 / 8))
+				set_point(image, x, y, red);
+			else if (y < (height * 3 / 4))
+				set_point(image, x, y, white);
+			else if (y < (height * 7 / 8))
+				set_point(image, x, y, red);
+			else
+				set_point(image, x, y, white);
+				*/
 		}
 	}
 }
 
 void Drawer::initial_particles()
 {
-	for (unsigned i = 0; i < num_particles; i++)
+	for (unsigned long i = 0; i < num_particles; i++)
 	{
-		particles[i].x = 0 + i;
-		particles[i].y = 0 + i;
+		particles[i].x = (0 + i)%width;
+		particles[i].y = 100 + static_cast<int>(i/width);
 	}
 }
 
-void Drawer::set_point(vector<unsigned char>& image, int x_i, int y_i, color color)
+//计算粒子运动
+void Drawer::calculate_particles()
 {
-	int x = x_i;
-	int y = height - y_i;
+	for (unsigned long i = 0; i < num_particles; i++)
+	{
+		//获取粒子当前所在位置的速度，通过插值的方法
+		//并计算下一时间步，粒子的位置
+	}
+}
+
+//画出粒子
+void Drawer::draw_particles()
+{		
+
+}
+
+//颜色对流
+void Drawer::color_advect()
+{
+
+}
+
+void Drawer::set_point(vector<unsigned char>& image, int x, int y, color color)
+{
+	//int x = x_i;
+	//int y = height - y_i;
 	image[4 * width * y + 4 * x + 0] = color.R;
 	image[4 * width * y + 4 * x + 1] = color.G;
 	image[4 * width * y + 4 * x + 2] = color.B;
 	image[4 * width * y + 4 * x + 3] = color.A;
 }
+
 
 vector<unsigned char> Drawer::get_image() 
 {
@@ -53,7 +127,7 @@ vector<unsigned char> Drawer::get_image()
 
 
 //输出png图片
-void Drawer::output_png(const char* filename, std::vector<unsigned char>& image, unsigned width, unsigned height)
+void Drawer::output_png(const char* filename)
 {
 	//Encode the image
 	unsigned error = lodepng::encode(filename, image, width, height);

@@ -1,8 +1,12 @@
 #include "SphereSolver.h"
 #include <iostream>
 #include <fstream>
+#include "Drawer.h"
+
 
 using namespace std;
+
+int n_image = 0;
 
 SphereSolver::SphereSolver(int n_theta, int n_phi, float dt, float DT, float radius):
 	n_theta(n_theta),n_phi(n_phi),dt(dt),DT(DT),radius(radius),gridLen(M_2PI/n_phi),invGridLen(1.0/gridLen)
@@ -40,17 +44,37 @@ void SphereSolver::step(float dt)
 
 	//cout << "hello" << endl;
 	//steo 2
-	geometric();
+	//geometric();
 
 	//step 3 
-	spectual_filter();
+	//spectual_filter();
 
 	//step 4
-	projection();
+	//projection();
 
 	//将模拟结果以图片的形式输出
 	//输出的图片格式为png
+	char p[] = "0000.png";
+	unsigned thousand = (unsigned)(n_image / 1000);
+	p[0] = (char)('0' + thousand);
+	unsigned hundred = (unsigned)((n_image - thousand * 1000) / 100);
+	p[1] = (char)('0' + hundred);
+	unsigned ten = (unsigned)((n_image - thousand * 1000 - hundred * 100) / 10);
+	p[2] = (char)('0' + ten);
+	unsigned unit = (unsigned)(n_image - thousand * 1000 - hundred * 100 - ten * 10);
+	p[3] = (char)('0' + unit);
+	
+	const char* filename = p;
+	//width, height
+	Drawer draw(800, 400);
+	//计算粒子的位置
+	//draw.calculate_particles();
+	//将粒子画上画布上
+	//draw.draw_particles();
+	//输出png文件
+	draw.output_png(filename);
 
+	n_image++;
 }
 
 void SphereSolver::initialize_velocity()

@@ -77,4 +77,5 @@ void Sphere::start()
 	out_phi.close();
 	out_theta.close();
 	solver.~SphereSolver();
+
 }

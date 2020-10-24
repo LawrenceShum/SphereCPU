@@ -22,6 +22,8 @@ class Drawer
 private:
 	//画布
 	vector<unsigned char> image;
+	vector<color> color_old;
+	vector<color> color_new;
 	//颜色定义
 	color white = { 255,255,255,255 };
 	color red = { 255,0,0,255 };
@@ -31,13 +33,20 @@ private:
 	unsigned width;
 	unsigned height;
 	//粒子的数量
-	unsigned num_particles = 10000;
+	unsigned long num_particles = 200*800;
 	vector<particle> particles;
 	void initial_particles();
 	
 	//在png上画点
 	void set_point(vector<unsigned char>&, int, int, color);
 	void initial(vector<unsigned char>&);
+	
+	//计算粒子的运动
+	void calculate_particles();
+	//画出粒子
+	void draw_particles();
+	//颜色的对流
+	void color_advect();
 
 public :
 	Drawer(unsigned,unsigned);
@@ -45,5 +54,7 @@ public :
 	~Drawer();
 
 	vector<unsigned char> get_image();
-	void output_png(const char*, std::vector<unsigned char>&, unsigned, unsigned);
+	void output_png(const char*);
+
+	friend class SphereSolver;
 };
