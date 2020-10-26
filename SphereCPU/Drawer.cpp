@@ -13,8 +13,8 @@ Drawer::Drawer(unsigned width, unsigned height, SphereSolver* Psolver) :
 	initial_particles();
 	//initial(image);
 	draw_particles();
-
-	output_png("initial.png");
+	
+	output_png("0000.png");
 }
 
 Drawer::~Drawer()

@@ -10,8 +10,8 @@ int main()
 	//n_theta±ØÐëÊÇn_phiµÄ1/2
 	int n_theta = 4;
 	int n_phi = 8;
-	float dt = 0.1;
-	float DT = 0.5;
+	float dt = 0.01;
+	float DT = 0.05;
 	float radius = 10;
 	double A = 0;
 	double B = 0;

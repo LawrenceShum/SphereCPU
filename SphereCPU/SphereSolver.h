@@ -1,6 +1,7 @@
 #pragma once
 #include "TotalInclude.h"
 #include "SphereQuantity.h"
+//#include "Drawer.h"
 
 class SphereSolver
 {
@@ -60,6 +61,9 @@ private:
 
 	void initialize_velocity();
 	void initialize_presure();
+
+	//输出png格式图片的实例
+	//Drawer* draw;
 
 public:
 	SphereSolver(int n_theta = 128, int n_phi = 256, float dt = 0.01, float DT = 0.05, float radius = 100);

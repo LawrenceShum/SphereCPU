@@ -6,11 +6,12 @@
 
 using namespace std;
 
-int n_image = 0;
-
 SphereSolver::SphereSolver(int n_theta, int n_phi, float dt, float DT, float radius):
 	n_theta(n_theta),n_phi(n_phi),dt(dt),DT(DT),radius(radius),gridLen(M_2PI/n_phi),invGridLen(1.0/gridLen)
 {
+	//width, height
+	//draw = new Drawer(800, 400, this);
+
 	vel_phi_this = new float[n_phi*(n_theta+1)];
 	vel_theta_this = new float[n_phi*(n_theta+1)];
 	vel_phi_next = new float[n_phi*(n_theta+1)];
@@ -18,7 +19,7 @@ SphereSolver::SphereSolver(int n_theta, int n_phi, float dt, float DT, float rad
 	presure_this = new float[n_phi*(n_theta+1)];
 	presure_next = new float[n_phi*(n_theta+1)];
 
-	simulation_time = 200;
+	simulation_time = 100;
 
 	initialize_velocity();
 	initialize_presure();
@@ -38,7 +39,7 @@ SphereSolver::~SphereSolver()
 void SphereSolver::step(float dt)
 {
 	//width, height
-	Drawer draw(800, 400, this);
+	//Drawer draw(800, 400, this);
 
 	float timestep = dt;
 
@@ -57,7 +58,7 @@ void SphereSolver::step(float dt)
 
 	//将模拟结果以图片的形式输出
 	//输出的图片格式为png
-	char p[] = "0000.png";
+	/*char p[] = "0000.png";
 	unsigned thousand = (unsigned)(n_image / 1000);
 	p[0] = (char)('0' + thousand);
 	unsigned hundred = (unsigned)((n_image - thousand * 1000) / 100);
@@ -65,23 +66,23 @@ void SphereSolver::step(float dt)
 	unsigned ten = (unsigned)((n_image - thousand * 1000 - hundred * 100) / 10);
 	p[2] = (char)('0' + ten);
 	unsigned unit = (unsigned)(n_image - thousand * 1000 - hundred * 100 - ten * 10);
-	p[3] = (char)('0' + unit);
+	p[3] = (char)('0' + unit);*/
 	
-	const char* filename = p;
+	//const char* filename = p;
 
 	//计算粒子的位置
-	draw.calculate_particles();
+	//draw->calculate_particles();
 	//将粒子画上画布上
-	draw.draw_particles();
+	//draw->draw_particles();
 
 	//颜色对流
 	//draw.color_advect();
 	//开始画画
 	//draw.draw();
 	//输出png图片
-	draw.output_png(filename);
+	//draw->output_png(filename);
 
-	n_image++;
+	//n_image++;
 }
 
 void SphereSolver::initialize_velocity()
@@ -90,7 +91,7 @@ void SphereSolver::initialize_velocity()
 	{
 		for (int i = 0; i < n_phi; i++)
 		{
-			this->set_vel_phi(j, i, 2);
+			this->set_vel_phi(j, i, 1.0);
 			this->set_vel_theta(j, i, 0);
 		}
 	}

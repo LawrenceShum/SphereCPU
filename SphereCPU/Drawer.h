@@ -3,6 +3,7 @@
 #include "lodepng.h"
 #include "SphereSolver.h"
 #include <vector>
+#include "Sphere.h"
 
 using namespace std;
 
@@ -40,13 +41,22 @@ private:
 	double Angle2Pixel;
 	//粒子的数量
 	unsigned long num_particles = 100*100;
+
 	vector<particle> particles;
+
 	void initial_particles();
-	
+
+public :
+	Drawer(unsigned,unsigned,SphereSolver*);
+
+	~Drawer();
+
+	vector<unsigned char> get_image();
+
 	//在png上画点
 	void set_point(vector<unsigned char>&, int, int, color);
 	void initial(vector<unsigned char>&);
-	
+
 	//计算粒子的运动
 	void calculate_particles();
 	void draw_particles();
@@ -58,12 +68,6 @@ private:
 	//更新颜色
 	void update_color();
 
-public :
-	Drawer(unsigned,unsigned,SphereSolver*);
-
-	~Drawer();
-
-	vector<unsigned char> get_image();
 	void output_png(const char*);
 
 	friend class SphereSolver;
