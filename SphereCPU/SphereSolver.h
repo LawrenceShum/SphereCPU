@@ -90,4 +90,5 @@ public:
 
 	friend class Sphere;
 	friend class LinearSolver;
+	friend class Drawer;
 };

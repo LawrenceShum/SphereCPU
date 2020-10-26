@@ -18,7 +18,7 @@ SphereSolver::SphereSolver(int n_theta, int n_phi, float dt, float DT, float rad
 	presure_this = new float[n_phi*(n_theta+1)];
 	presure_next = new float[n_phi*(n_theta+1)];
 
-	simulation_time = 100;
+	simulation_time = 200;
 
 	initialize_velocity();
 	initialize_presure();
@@ -37,6 +37,9 @@ SphereSolver::~SphereSolver()
 //模拟步骤
 void SphereSolver::step(float dt)
 {
+	//width, height
+	Drawer draw(800, 400, this);
+
 	float timestep = dt;
 
 	//step 1
@@ -44,10 +47,10 @@ void SphereSolver::step(float dt)
 
 	//cout << "hello" << endl;
 	//steo 2
-	//geometric();
+	geometric();
 
 	//step 3 
-	//spectual_filter();
+	spectual_filter();
 
 	//step 4
 	//projection();
@@ -65,13 +68,17 @@ void SphereSolver::step(float dt)
 	p[3] = (char)('0' + unit);
 	
 	const char* filename = p;
-	//width, height
-	Drawer draw(800, 400);
+
 	//计算粒子的位置
-	//draw.calculate_particles();
+	draw.calculate_particles();
 	//将粒子画上画布上
-	//draw.draw_particles();
-	//输出png文件
+	draw.draw_particles();
+
+	//颜色对流
+	//draw.color_advect();
+	//开始画画
+	//draw.draw();
+	//输出png图片
 	draw.output_png(filename);
 
 	n_image++;
@@ -83,8 +90,8 @@ void SphereSolver::initialize_velocity()
 	{
 		for (int i = 0; i < n_phi; i++)
 		{
-			this->set_vel_phi(j, i, 0.5);
-			this->set_vel_theta(j, i, 1.0);
+			this->set_vel_phi(j, i, 2);
+			this->set_vel_theta(j, i, 0);
 		}
 	}
 }
@@ -165,6 +172,12 @@ float SphereSolver::sampleAt(float coPhi, float coTheta, float* u)
 	if (coTheta > M_PI)
 	{
 		coTheta = M_2PI - coTheta;
+		coPhi += M_PI;
+		isFlipped = true;
+	}
+	else if (coTheta < 0)
+	{
+		coTheta = -coTheta;
 		coPhi += M_PI;
 		isFlipped = true;
 	}

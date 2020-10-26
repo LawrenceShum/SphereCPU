@@ -10,7 +10,7 @@ Sphere::Sphere(int n_theta, int n_phi, float dt, float DT, float radius, double 
 	double B, double C, double D)
 	:n_theta(n_theta), n_phi(n_phi),dt(dt),DT(DT),radius(radius),A(A),B(B),C(C),D(D)
 {
-	simulation_time = 100;
+	simulation_time = 200;
 }
 
 Sphere::~Sphere()

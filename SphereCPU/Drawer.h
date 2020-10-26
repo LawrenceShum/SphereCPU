@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "lodepng.h"
+#include "SphereSolver.h"
 #include <vector>
 
 using namespace std;
@@ -24,16 +25,21 @@ private:
 	vector<unsigned char> image;
 	vector<color> color_old;
 	vector<color> color_new;
+	//求解器的指针
+	SphereSolver* Psolver;
 	//颜色定义
 	color white = { 255,255,255,255 };
 	color red = { 255,0,0,255 };
 	color green = { 0,128,0,255 };
 	color yellow = { 255,255,0,255 };
+	color black = { 0,0,0,255 };
 	//图像长宽
 	unsigned width;
 	unsigned height;
+	//弧度制与像素的换算
+	double Angle2Pixel;
 	//粒子的数量
-	unsigned long num_particles = 200*800;
+	unsigned long num_particles = 100*100;
 	vector<particle> particles;
 	void initial_particles();
 	
@@ -43,13 +49,17 @@ private:
 	
 	//计算粒子的运动
 	void calculate_particles();
-	//画出粒子
 	void draw_particles();
+	//画粒子
+	//画画
+	void draw();
 	//颜色的对流
 	void color_advect();
+	//更新颜色
+	void update_color();
 
 public :
-	Drawer(unsigned,unsigned);
+	Drawer(unsigned,unsigned,SphereSolver*);
 
 	~Drawer();
 
