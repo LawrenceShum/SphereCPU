@@ -91,7 +91,7 @@ void SphereSolver::initialize_velocity()
 	{
 		for (int i = 0; i < n_phi; i++)
 		{
-			this->set_vel_phi(j, i, 1.0);
+			this->set_vel_phi(j, i, 0.5*i);
 			this->set_vel_theta(j, i, 0);
 		}
 	}
@@ -176,12 +176,12 @@ float SphereSolver::sampleAt(float coPhi, float coTheta, float* u)
 		coPhi += M_PI;
 		isFlipped = true;
 	}
-	else if (coTheta < 0)
+	/*else if (coTheta < 0)
 	{
 		coTheta = -coTheta;
 		coPhi += M_PI;
 		isFlipped = true;
-	}
+	}*/
 	loops = static_cast<int>(std::floor(coPhi / M_2PI));
 	coPhi = coPhi - loops * M_2PI;
 

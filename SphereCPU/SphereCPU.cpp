@@ -68,14 +68,14 @@ void Sphere::start()
 			const char* filename = p;
 
 			//计算粒子的位置
-			draw.calculate_particles();
+			//draw.calculate_particles();
 			//将粒子画上画布上
-			draw.draw_particles();
+			//draw.draw_particles();
 
 			//颜色对流
-			//draw.color_advect();
+			draw.color_advect();
 			//开始画画
-			//draw.draw();
+			draw.draw();
 			//输出png图片
 			draw.output_png(filename);
 			n_image++;
@@ -96,14 +96,14 @@ void Sphere::start()
 		const char* filename = p;
 
 		//计算粒子的位置
-		draw.calculate_particles();
+		//draw.calculate_particles();
 		//将粒子画上画布上
-		draw.draw_particles();
+		//draw.draw_particles();
 
 		//颜色对流
-		//draw.color_advect();
+		draw.color_advect();
 		//开始画画
-		//draw.draw();
+		draw.draw();
 		//输出png图片
 		draw.output_png(filename);
 		n_image++;

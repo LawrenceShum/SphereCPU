@@ -40,13 +40,14 @@ void SphereSolver::projection()
 	//??problem??
 	//还差两个方程式，北极和南极的projection
 	//trick1:极点处的压力为极点周围压力的平均值
+	//spectral filter
 	int row = n_phi;
 	//先考虑非极点情况
 	for (int j = 1; j < n_theta; j++)
-		{
-			double co = dt / (2 * density*radius*gridLen*gridLen);
-			double scale1 = 0.5*dt*invDensity*invRadius*invGridLen*invGridLen;
-			for (int i = 0; i < n_phi; i++)
+	{
+			//double co = dt / (2 * density*radius*gridLen*gridLen);
+			//double scale1 = 0.5*dt*invDensity*invRadius*invGridLen*invGridLen;
+			/*for (int i = 0; i < n_phi; i++)
 			{
 				int left_i, left_j,
 					right_i, right_j,
@@ -122,17 +123,50 @@ void SphereSolver::projection()
 				linear.set_value_A(row, get_column_num(down_i, down_j, n_phi), -1);
 
 				row++;
-			}
+			}*/
+
+		for (int i = 0; i < n_phi; i++)
+		{
+			float Phi = i * gridLen;
+			float Theta = j * gridLen;
+
+			double invSin = 1.0 / sin(Theta);
+			double coefficient = invRadius * invRadius * invGridLen * invGridLen * invSin;
+			
+			int left_i = (i == 0 ? n_phi - 1 : i - 1);
+			int right_i = (i == n_phi - 1 ? 0 : i + 1);
+			int left_j = j;
+			int right_j = j;
+			int up_i = i;
+			int down_i = i;
+			int up_j = j - 1;
+			int down_j = j + 1;
+
+			linear.set_value_A(row, get_column_num(i, j, n_phi), (-2 * coefficient * sin(Theta) - 2 * coefficient * invSin));
+			linear.set_value_A(row, get_column_num(left_i, left_j, n_phi), (1 * coefficient * invSin));
+			linear.set_value_A(row, get_column_num(right_i, right_j, n_phi), (1 * coefficient * invSin));
+			linear.set_value_A(row, get_column_num(up_i, up_j, n_phi), (1 * coefficient * sin(Theta-gridLen)));
+			linear.set_value_A(row, get_column_num(down_i, down_j, n_phi), (1 * coefficient * sin(Theta + gridLen)));
+			
+			row++;
 		}
+	}
 	//考虑北极南极点的情况
 	//北极点
-	row = 0;
+	/*row = 0;
 	for (int i = 0; i < n_phi; i++)
 	{
 		double co = dt / (2 * density * gridLen);
 		linear.set_value_A(row, get_column_num(i, 0, n_phi), 2);
 		linear.set_value_A(row, get_column_num(i, 2, n_phi), -1);
 		linear.set_value_A(row, get_column_num(i+static_cast<int>(n_phi/2), 2, n_phi), -1);
+		row++;
+	}*/
+	row = 0;
+	for (int i = 0; i < n_phi; i++)
+	{
+
+
 		row++;
 	}
 
