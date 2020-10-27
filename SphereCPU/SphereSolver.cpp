@@ -85,6 +85,7 @@ void SphereSolver::step(float dt)
 	//n_image++;
 }
 
+
 //curl noise 初始化速度场
 void SphereSolver::initialize_velocity()
 {
