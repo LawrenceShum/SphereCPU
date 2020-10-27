@@ -20,13 +20,17 @@ int get_column_num(int i, int j, int pitch)
 	return j*pitch + i;
 }
 
-void SphereSolver::projection()
+void SphereSolver::projection(int a)
 {
 	float invRadius = 1.0 / radius;
 	float invDensity = 1.0 / density;
 
-	int iteration = 20;
+	float* uTheta = vel_theta_this;
+	float* uPhi = vel_phi_this;
+	float* p = presure_this;
 
+	//int iteration = 20;
+	/*
 	//矩阵A的维数，也决定了b的大小
 	//int size = n_phi*(n_theta - 1) + 2;
 	int size = n_phi*(n_theta + 1);
@@ -34,7 +38,6 @@ void SphereSolver::projection()
 	//构建一个线性求解器
 	//线性系统为Ax = b
 	LinearSolver linear(size, iteration);
-
 	//构建A矩阵
 	//北极、南极两点的P放在矩阵A中每一行的最后两个
 	//??problem??
@@ -45,86 +48,6 @@ void SphereSolver::projection()
 	//先考虑非极点情况
 	for (int j = 1; j < n_theta; j++)
 	{
-			//double co = dt / (2 * density*radius*gridLen*gridLen);
-			//double scale1 = 0.5*dt*invDensity*invRadius*invGridLen*invGridLen;
-			/*for (int i = 0; i < n_phi; i++)
-			{
-				int left_i, left_j,
-					right_i, right_j,
-					up_i, up_j,
-					down_i, down_j;
-				//判断左右脚标
-				if (i == 0)
-				{
-					left_i = n_phi - 2;
-					right_i = 2;
-					left_j = j;
-					right_j = j;
-				}
-				else if (i == 1)
-				{
-					left_i = n_phi - 1;
-					right_i = 3;
-					left_j = j;
-					right_j = j;
-				}
-				else if (i == n_phi - 2)
-				{
-					left_i = n_phi - 4;
-					right_i = 0;
-					left_j = j;
-					right_j = j;
-				}
-				else if (i == n_phi - 1)
-				{
-					left_i = n_phi - 3;
-					right_i = 1;
-					left_j = j;
-					right_j = j;
-				}
-				else 
-				{
-					left_i = i - 2;
-					right_i = i + 2;
-					left_j = j;
-					right_j = j;
-				}
-
-				//判断上下脚标
-				if (j == 1)
-				{
-					up_i = (i + n_phi / 2) % n_phi;
-					down_i = i;
-					up_j = 1;
-					down_j = 3;
-				}
-
-				else if (j == n_theta - 1)
-				{
-					up_i = i;
-					down_i = (i + n_phi / 2) % n_phi;
-					up_j = j - 2;
-					down_j = j;
-				}
-
-				else
-				{
-					up_i = i;
-					down_i = i;
-					up_j = j - 2;
-					down_j = j + 2;
-				}
-				//将自身系数设为4
-				linear.set_value_A(row, get_column_num(i, j, n_phi), 4);
-				//将临近上下左右系数设为-1
-				linear.set_value_A(row, get_column_num(left_i, left_j, n_phi), -1);
-				linear.set_value_A(row, get_column_num(right_i, right_j, n_phi), -1);
-				linear.set_value_A(row, get_column_num(up_i, up_j, n_phi), -1);
-				linear.set_value_A(row, get_column_num(down_i, down_j, n_phi), -1);
-
-				row++;
-			}*/
-
 		for (int i = 0; i < n_phi; i++)
 		{
 			float Phi = i * gridLen;
@@ -151,25 +74,12 @@ void SphereSolver::projection()
 			row++;
 		}
 	}
-	//考虑北极南极点的情况
-	//北极点
-	/*row = 0;
-	for (int i = 0; i < n_phi; i++)
-	{
-		double co = dt / (2 * density * gridLen);
-		linear.set_value_A(row, get_column_num(i, 0, n_phi), 2);
-		linear.set_value_A(row, get_column_num(i, 2, n_phi), -1);
-		linear.set_value_A(row, get_column_num(i+static_cast<int>(n_phi/2), 2, n_phi), -1);
-		row++;
-	}*/
+	//考虑北极点处情况
 	row = 0;
 	for (int i = 0; i < n_phi; i++)
 	{
-
-
 		row++;
 	}
-
 	//南极点
 	row = n_phi*n_theta;
 	for (int i = 0; i < n_phi; i++)
@@ -180,46 +90,6 @@ void SphereSolver::projection()
 		linear.set_value_A(row, get_column_num(i + static_cast<int>(n_phi / 2), n_theta - 1, n_phi), -1);
 		row++;
 	}
-	/*
-	float* v = vel_theta_this;
-	float* p = presure_this;
-
-	float invRadius = 1.0 / radius;
-	float invDensity = 1.0 / density;
-
-	//北极点处
-	for (int k = 0; k < n_phi; k++)
-	{
-		float factor = -dt * invGridLen * invRadius * invDensity * 0.5;
-		float u_n = v[k];
-		float p_n = p[k];
-		float p_down = p[k + 1 * n_phi];
-
-		float deltaP = p_down - p_n;
-		float deltaTheta = factor*deltaP;
-		vel_theta_next[k] = u_n + deltaTheta;
-	}
-	//南极点处
-	for (int k = 0; k < n_phi; k++)
-	{
-		float factor = -dt * invGridLen * invRadius * invDensity * 0.5;
-		float u_n = v[k + n_phi*n_theta];
-		float p_n = p[k + (n_phi-1)*n_theta];
-		float p_down = p[k + n_phi*n_theta];
-
-		float deltaP = p_down - p_n;
-		float deltaTheta = factor*deltaP;
-		vel_theta_next[k + n_phi*n_theta] = u_n + deltaTheta;
-	}
-	//共轭计算
-	for (int k = 0; k < n_phi; k++)
-	{
-		int num = (k + static_cast<int>(n_phi / 4)) % n_phi;
-		vel_phi_next[k] = vel_theta_next[num];
-		vel_phi_next[k + n_phi*n_theta] = vel_theta_next[num + n_phi*n_theta];
-	}
-	*/
-
 	//输出看一下A矩阵是什么样子的
 	linear.output_A();
 	//输出A矩阵的特征值
@@ -277,97 +147,147 @@ void SphereSolver::projection()
 	float scale = dt * invRadius * invDensity;
 
 	//使用MKL计算projection
-		//u为phi方向，v为theta方向
-		float* u = vel_phi_this;
-		float* v = vel_theta_this;
-		//MKLj解泊松方程
-		//MKLSpherical();
-		//更新phi方向的速度
-		for (int y = 1; y < n_theta - 1; y++)
+	//u为phi方向，v为theta方向
+	float* u = vel_phi_this;
+	float* v = vel_theta_this;
+
+	//更新phi方向的速度
+	for (int y = 1; y < n_theta - 1; y++)
+	{
+		for (int x = 0; x < n_phi; x++)
 		{
-			for (int x = 0; x < n_phi; x++)
-			{
-				float theta = y*gridLen;
-				float phi = x*gridLen;
-				float invSin = 1.0 / sin(theta);
-				float factorPhi = -dt * invGridLen * invRadius * invSin * invDensity * 0.5;
+			float theta = y*gridLen;
+			float phi = x*gridLen;
+			float invSin = 1.0 / sin(theta);
+			float factorPhi = -dt * invGridLen * invRadius * invSin * invDensity * 0.5;
 
-				int gridLeftX = (x == 0 ? n_phi - 1 : x - 1);
-				int gridRightX = (x == n_phi - 1 ? 0 : x + 1);
+			int gridLeftX = (x == 0 ? n_phi - 1 : x - 1);
+			int gridRightX = (x == n_phi - 1 ? 0 : x + 1);
 
-				//float pressureGrad = presure_this[gridRightX + y*n_phi] - presure_this[gridLeftX + y*n_phi];
-				double pressureGrad = linear.x(gridRightX + y*n_phi) - linear.x(gridLeftX + y*n_phi);
-				float deltauPhi = factorPhi * pressureGrad;
-				vel_phi_next[x + y*n_phi] = u[x + y*n_phi] + deltauPhi;
-			}
+			//float pressureGrad = presure_this[gridRightX + y*n_phi] - presure_this[gridLeftX + y*n_phi];
+			double pressureGrad = linear.x(gridRightX + y*n_phi) - linear.x(gridLeftX + y*n_phi);
+			float deltauPhi = factorPhi * pressureGrad;
+			vel_phi_next[x + y*n_phi] = u[x + y*n_phi] + deltauPhi;
 		}
+	}
 		//更新theta方向的速度
-		for (int y = 1; y < n_theta - 1; y++)
+	for (int y = 1; y < n_theta - 1; y++)
+	{
+		for (int x = 0; x < n_phi; x++)
 		{
-			for (int x = 0; x < n_phi; x++)
-			{
-				float theta = y*gridLen;
-				float phi = x*gridLen;
-				float factorTheta = -dt * invGridLen * invRadius * invDensity * 0.5;
+			float theta = y*gridLen;
+			float phi = x*gridLen;
+			float factorTheta = -dt * invGridLen * invRadius * invDensity * 0.5;
 
-				int gridLeftX = (x == 0 ? n_phi - 1 : x - 1);
-				int gridRightX = (x == n_phi - 1 ? 0 : x + 1);
+			int gridLeftX = (x == 0 ? n_phi - 1 : x - 1);
+			int gridRightX = (x == n_phi - 1 ? 0 : x + 1);
 
-				//float pressureGrad = presure_this[gridRightX + y*n_phi] - presure_this[gridLeftX + y*n_phi];
-				double pressureGrad = linear.x(gridRightX + y*n_phi) - linear.x(gridLeftX + y*n_phi);
-				float deltauTheta = factorTheta * pressureGrad;
-				vel_theta_next[x + y*n_phi] = v[x + y*n_phi] + deltauTheta;
-			}
+			//float pressureGrad = presure_this[gridRightX + y*n_phi] - presure_this[gridLeftX + y*n_phi];
+			double pressureGrad = linear.x(gridRightX + y*n_phi) - linear.x(gridLeftX + y*n_phi);
+			float deltauTheta = factorTheta * pressureGrad;
+			vel_theta_next[x + y*n_phi] = v[x + y*n_phi] + deltauTheta;
 		}
+	}
 
-		//解决极点处的projection
-		//solvePolarProjection(linear.x);
-		//float* v = vel_theta_this;
-		//float* p = presure_this;
+	//解决极点处的projection
+	//solvePolarProjection(linear.x);
+	//float* v = vel_theta_this;
+	//float* p = presure_this;
 
-		//float invRadius = 1.0 / radius;
-		//float invDensity = 1.0 / density;
+	//float invRadius = 1.0 / radius;
+	//float invDensity = 1.0 / density;
 
-		//北极点处
-		for (int k = 0; k < n_phi; k++)
-		{
-			float factor = -dt * invGridLen * invRadius * invDensity * 0.5;
-			float u_n = v[k];
-			//float p_n = p[k];
-			double p_n = linear.x(k);
-			//float p_down = p[k + 1 * n_phi];
-			double p_down = linear.x(k + 1 * n_phi);
+	//北极点处
+	for (int k = 0; k < n_phi; k++)
+	{
+		float factor = -dt * invGridLen * invRadius * invDensity * 0.5;
+		float u_n = v[k];
+		//float p_n = p[k];
+		double p_n = linear.x(k);
+		//float p_down = p[k + 1 * n_phi];
+		double p_down = linear.x(k + 1 * n_phi);
 
-			float deltaP = p_down - p_n;
-			float deltaTheta = factor*deltaP;
-			vel_theta_next[k] = u_n + deltaTheta;
-		}
-		//南极点处
-		for (int k = 0; k < n_phi; k++)
-		{
-			float factor = -dt * invGridLen * invRadius * invDensity * 0.5;
-			float u_n = v[k + n_phi*n_theta];
-			//float p_n = p[k + (n_phi - 1)*n_theta];
-			double p_n = linear.x(k + (n_phi - 1)*n_theta);
-			//float p_down = p[k + n_phi*n_theta];
-			double p_down = linear.x(k + n_phi*n_theta);
+		float deltaP = p_down - p_n;
+		float deltaTheta = factor*deltaP;
+		vel_theta_next[k] = u_n + deltaTheta;
+	}
+	//南极点处
+	for (int k = 0; k < n_phi; k++)
+	{
+		float factor = -dt * invGridLen * invRadius * invDensity * 0.5;
+		float u_n = v[k + n_phi*n_theta];
+		//float p_n = p[k + (n_phi - 1)*n_theta];
+		double p_n = linear.x(k + (n_phi - 1)*n_theta);
+		//float p_down = p[k + n_phi*n_theta];
+		double p_down = linear.x(k + n_phi*n_theta);
 
-			float deltaP = p_down - p_n;
-			float deltaTheta = factor*deltaP;
-			vel_theta_next[k + n_phi*n_theta] = u_n + deltaTheta;
-		}
-		//共轭计算
-		for (int k = 0; k < n_phi; k++)
-		{
-			int num = (k + static_cast<int>(n_phi / 4)) % n_phi;
-			vel_phi_next[k] = vel_theta_next[num];
-			vel_phi_next[k + n_phi*n_theta] = vel_theta_next[num + n_phi*n_theta];
-		}
+		float deltaP = p_down - p_n;
+		float deltaTheta = factor*deltaP;
+		vel_theta_next[k + n_phi*n_theta] = u_n + deltaTheta;
+	}
+	//共轭计算
+	for (int k = 0; k < n_phi; k++)
+	{
+		int num = (k + static_cast<int>(n_phi / 4)) % n_phi;
+		vel_phi_next[k] = vel_theta_next[num];
+		vel_phi_next[k + n_phi*n_theta] = vel_theta_next[num + n_phi*n_theta];
+	}
 	
 	//cout << "Something goes wrong in the projection step" << endl;
 
 	swap_vel_phi();
-	swap_vel_theta();
+	swap_vel_theta();*/
+	//使用mkl进行计算
+	if (a == 0)
+	{
+		//开始进行MKL
+		MKLSpherical();
+
+		swap_presure();
+
+		//更新phi方向的速度
+		for (int j = 1; j < n_theta; j++)
+		{
+			for (int i = 0; i < n_phi; i++)
+			{
+				float uBefore = uPhi[i + j*n_phi];
+				float thetaBelt = j * gridLen;
+				float invSin = 1.0 / sin(thetaBelt);
+				float factor = -dt * invGridLen * invRadius * invSin * invDensity * 0.5;
+
+				int gridLeft = (i == 0 ? n_phi - 1 : i - 1);
+				int gridRight = (i == n_phi - 1 ? 0 : i + 1);
+
+				float presureGrad = presure_this[gridRight + j * n_phi] - presure_this[gridLeft + j * n_phi];
+				float deltaUphi = factor * presureGrad;
+				vel_phi_next[i + j * n_phi] = uBefore + deltaUphi;
+			}
+		}
+
+		//更新theta方向的速度
+		for (int j = 1; j < n_theta; j++)
+		{
+			for (int i = 0; i < n_phi; i++)
+			{
+				float vBefore = uTheta[i + j*n_phi];
+				float thetaBelt = j * gridLen;
+				float factor = -dt * invGridLen * invRadius * invDensity * 0.5;
+
+				int gridAbove = j + 1;
+				int gridLow = j - 1;
+
+				float presureGrad = presure_this[gridAbove + j * n_phi] - presure_this[gridLow + j * n_phi];
+				float deltaUtheta = factor * presureGrad;
+				vel_theta_next[i + j * n_phi] = vBefore + deltaUtheta;
+			}
+		}
+
+		solvePolarProjection();
+
+		swap_vel_phi();
+		swap_vel_theta();
+	}
+	else return;
 }
 
 
@@ -389,7 +309,8 @@ void SphereSolver::solvePolarProjection()
 
 		float deltaP = p_down - p_n;
 		float deltaTheta = factor*deltaP;
-		vel_theta_next[k] = u_n + deltaTheta;
+		//vel_theta_next[k] = u_n + deltaTheta;
+		vel_theta_this[k] = u_n;
 	}
 	//南极点处
 	for (int k = 0; k < n_phi; k++)
@@ -401,15 +322,18 @@ void SphereSolver::solvePolarProjection()
 
 		float deltaP = p_down - p_n;
 		float deltaTheta = factor*deltaP;
-		vel_theta_next[k + n_phi*n_theta] = u_n + deltaTheta;
+		//vel_theta_next[k + n_phi*n_theta] = u_n + deltaTheta;
+		vel_theta_this[k + n_phi*n_theta] = u_n;
 	}
+	
 	//共轭计算
-	for (int k = 0; k < n_phi; k++)
+	/*for (int k = 0; k < n_phi; k++)
 	{
 		int num = (k + static_cast<int>(n_phi / 4)) % n_phi;
 		vel_phi_next[k] = vel_theta_next[num];
 		vel_phi_next[k + n_phi*n_theta] = vel_theta_next[num + n_phi*n_theta];
-	}
+	}*/
+	spectual_filter();
 }
 
 /*******************************************************************************
@@ -437,8 +361,10 @@ void SphereSolver::MKLSpherical()
 	float* uPhi = vel_phi_this;
 	float* vTheta = vel_theta_this;
 	float* p = presure_this;
-
-	MKL_INT np = n_phi, nt = n_theta - 1;
+	
+	//np: the num of mesh intervals along the phi axis
+	//nt: the num of mesh intervals along the theta axis
+	MKL_INT np = n_phi, nt = n_theta;
 	double invRad = 1.0 / radius;
 	double pi = 3.14159265358979324;
 
@@ -464,6 +390,10 @@ void SphereSolver::MKLSpherical()
 	/* Defining the rectangular domain on a sphere 0<p<2*pi, 0<t<pi
 	for Helmholtz Solver on a sphere
 	Poisson Library will automatically detect that this problem is on a whole sphere! */
+	//ap: the coordinate(angle) of the leftmost boundary of the domain along the phi axis
+	//bp: the coordinate(angle) of the rightmost boundary of the domain along the phi axis
+	//at: coordinate(angle) of the leftmost boundary of the domain along the theta axis
+	//bt: coordinate(angle) of the rightmost boundary of the domain along the theta axis
 	ap = 0.0E0;
 	bp = 2 * pi;
 	at = 0.0E0;
@@ -483,7 +413,7 @@ void SphereSolver::MKLSpherical()
 	// interior of grid
 	for (it = 1; it < nt; it++)
 	{
-		for (ip = 1; ip < np - 1; ip++)
+		for (ip = 1; ip < np; ip++)
 		{
 			theta_i = ht*it;
 			theta_up = ht*(it + 1);
@@ -492,15 +422,15 @@ void SphereSolver::MKLSpherical()
 			sin_up = sin(theta_up);
 			sin_down = sin(theta_down);
 			double factor = invRad * 0.5 * invGridLen * invSin * density;
-			float u_left = uPhi[ip + it*np];
+			float u_left = uPhi[(ip - 1) + it * np];
 			//float u_left = uPhi->getValueAt(ip - 1, it);
-			float u_right = uPhi[ip + (it + 1)*np];
+			float u_right = uPhi[(ip + 1) + it * np];
 			//float u_right = uPhi->getValueAt(ip + 1, it);
-			float u_up = vTheta[ip + (it + 1)*np];
+			float u_up = vTheta[ip + (it + 1) * np];
 			//float u_up = vTheta->getValueAt(ip, it + 1);
 			float u_down = vTheta[ip + (it - 1)*np];
 			//float u_down = vTheta->getValueAt(ip, it - 1);
-			f[ip + it*(np + 1)] = factor * (u_right - u_left + u_up * sin_up - u_down * sin_down);
+			f[ip + it * (np + 1)] = factor * (u_right - u_left + u_up * sin_up - u_down * sin_down);
 		}
 	}
 	// second to last column
@@ -513,15 +443,15 @@ void SphereSolver::MKLSpherical()
 		sin_up = sin(theta_up);
 		sin_down = sin(theta_down);
 		double factor = invRad * 0.5 * invGridLen * invSin * density;
-		float u_left = uPhi[(np - 2) + it*np];
+		float u_left = uPhi[(np - 2) + it * np];
 		//float u_left = uPhi->getValueAt(np - 2, it);
-		float u_right = uPhi[0 + it*np];
+		float u_right = uPhi[0 + it * np];
 		//float u_right = uPhi->getValueAt(0, it);
-		float u_up = vTheta[(np - 1) + (it + 1)*np];
+		float u_up = vTheta[(np - 1) + (it + 1) * np];
 		//float u_up = vTheta->getValueAt(np - 1, it + 1);
 		float u_down = vTheta[(np - 1) + (it - 1)*np];
 		//float u_down = vTheta->getValueAt(np - 1, it - 1);
-		f[ip + it*(np + 1)] = factor * (u_right - u_left + u_up * sin_up - u_down * sin_down);
+		f[ip + it* (np + 1)] = factor * (u_right - u_left + u_up * sin_up - u_down * sin_down);
 	}
 
 	// phi = 0, 2Pi seam
@@ -542,7 +472,7 @@ void SphereSolver::MKLSpherical()
 		float u_down = vTheta[0 + (it - 1)*np];
 		//float u_down = vTheta->getValueAt(0, it - 1);
 		float seamVal = factor * (u_right - u_left + u_up * sin_up - u_down * sin_down);
-		f[it * (np + 1)] = seamVal;
+		f[0 + it * (np + 1)] = seamVal;
 		f[np + it * (np + 1)] = seamVal;
 	}
 
@@ -613,7 +543,8 @@ void SphereSolver::MKLSpherical()
 		{
 			//printf("%10.3f", f[ip + it*(np + 1)]);
 			double F = f[ip + it*(np + 1)];
-			this->set_presure(ip, it, F);
+			//this->set_presure(ip, it, F);
+			presure_next[ip + it * np] = F;
 			//p->writeValueTo(ip, it, f[ip + it*(np + 1)]);
 		}
 	}
@@ -640,12 +571,6 @@ end:
 
 	//printf("press any key to continue...");
 	//getchar();
-}
-
-//计算projection中的矩阵A
-void SphereSolver::computeA()
-{
-	
 }
 
 

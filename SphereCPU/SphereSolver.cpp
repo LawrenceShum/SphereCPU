@@ -54,7 +54,7 @@ void SphereSolver::step(float dt)
 	//spectual_filter();
 
 	//step 4
-	//projection();
+	projection(0);
 
 	//将模拟结果以图片的形式输出
 	//输出的图片格式为png
@@ -85,6 +85,7 @@ void SphereSolver::step(float dt)
 	//n_image++;
 }
 
+//curl noise 初始化速度场
 void SphereSolver::initialize_velocity()
 {
 	for (int j = 0; j < n_theta + 1; j++)
@@ -103,7 +104,6 @@ void SphereSolver::initialize_presure()
 	{
 		for (int i = 0; i < n_phi; i++)
 		{
-			this->set_presure(j, i, 0.0);
 			this->set_presure(j, i, 0.0);
 		}
 	}

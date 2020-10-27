@@ -6,7 +6,7 @@ using namespace std;
 
 void SphereSolver::geometric()
 {
-	for (int y = 1; y <= n_theta - 1; y++)
+	for (int y = 1; y < n_theta; y++)
 	{
 		for (int x = 0; x < n_phi; x++)
 		{
@@ -14,11 +14,13 @@ void SphereSolver::geometric()
 		}
 	}
 
+	spectual_filter();
+
 	swap_vel_phi();
 	swap_vel_theta();
 
 	//将next的速度清零
-	for (int y = 0; y < n_theta + 1; y++)
+	for (int y = 0; y <= n_theta; y++)
 	{
 		for (int x = 0; x < n_phi; x++)
 		{
