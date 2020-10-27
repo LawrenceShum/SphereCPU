@@ -51,7 +51,7 @@ void SphereSolver::step(float dt)
 	geometric();
 
 	//step 3 
-	spectual_filter();
+	//spectual_filter();
 
 	//step 4
 	//projection();

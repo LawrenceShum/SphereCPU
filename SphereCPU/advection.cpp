@@ -6,7 +6,7 @@ using namespace std;
 
 void SphereSolver::advection()
 {
-	for (int y = 1; y <= n_theta - 1; y++)
+	for (int y = 1; y < n_theta ; y++)
 	{
 		for (int x = 0; x < n_phi; x++)
 		{
@@ -32,7 +32,7 @@ void SphereSolver::advection()
 	}
 }
 
-
+//非极点处
 void SphereSolver::velocity_advection(int x, int y)
 {
 	int num = y*n_phi + x;
@@ -135,46 +135,64 @@ void SphereSolver::velocity_advection(int x, int y)
 void SphereSolver::polarAdvection()
 {
 	float invRadius = 1.0 / radius;
+
 	//在北极点处
 	for (int x = 0; x < n_phi; x++)
 	{
+		int gridShift = (x + n_phi / 2) % n_phi;
 		float coTheta = 0.0;
 		float coPhi = x*gridLen;
 
 		float uTheta = vel_theta_this[x];
 
-		float pTheta = coTheta - dt*uTheta;
+		/*float pTheta = coTheta - dt*uTheta;
 		float pPhi = coPhi;
 
 		float midTheta = sampleAt(pPhi, pTheta, vel_theta_this);
-		vel_theta_next[x] = uTheta + invRadius * (midTheta - uTheta);
+		vel_theta_next[x] = uTheta + invRadius * (midTheta - uTheta);*/
+
+		float u_Theta_up = vel_theta_this[1 * n_phi + gridShift];
+		float u_Theta_down = vel_theta_this[1 * n_phi + x];
+
+		float u_star = uTheta - dt * (uTheta / radius) * ((u_Theta_down - uTheta) / gridLen);
+		vel_theta_this[x] = u_star;
 	}
 	//根据共轭关系处理phi方向的速度
-	for (int x = 0; x < n_phi; x++)
+	/*for (int x = 0; x < n_phi; x++)
 	{
 		int conjugate = (x + static_cast<int>(n_phi / 4)) % n_phi;
 		vel_phi_next[x] = vel_theta_next[conjugate];
-	}
+	}*/
 
 	//在南极点处
 	for (int x = 0; x < n_phi; x++)
 	{
 		float coTheta = M_2PI;
 		float coPhi = x*gridLen;
+		int gridShift = (x + n_phi / 2) % n_phi;
+
 
 		float uTheta = vel_theta_this[x + n_theta*n_phi];
 
-		float pTheta = coTheta - dt*uTheta;
+		/*float pTheta = coTheta - dt*uTheta;
 		float pPhi = coPhi;
 
 		float midTheta = sampleAt(pPhi, pTheta, vel_theta_this);
 		vel_theta_next[x + n_theta*n_phi] = uTheta + invRadius * (midTheta - uTheta);
-		//vel_theta_next[x + n_theta*n_phi] = sampleAt(pPhi, pTheta, vel_theta_this);
+		//vel_theta_next[x + n_theta*n_phi] = sampleAt(pPhi, pTheta, vel_theta_this);*/
+		
+		float u_Theta_up = vel_theta_this[(n_theta-1) * n_phi + x];
+		float u_Theta_down = vel_theta_this[(n_theta-1) * n_phi + gridShift];
+
+		float u_star = uTheta - dt * (uTheta / radius) * ((uTheta - u_Theta_up) / gridLen);
+		vel_theta_this[n_theta * n_phi + x] = u_star;
 	}
 	//根据共轭关系处理phi方向的速度
-	for (int x = 0; x < n_phi; x++)
+	/*for (int x = 0; x < n_phi; x++)
 	{
 		int conjugate = (x + static_cast<int>(n_phi / 4)) % n_phi;
 		vel_phi_next[x + n_theta*n_phi] = vel_theta_next[conjugate + n_theta*n_phi];
-	}
+	}*/
+
+	spectual_filter();
 }
